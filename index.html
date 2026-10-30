@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting...</title>
+  <link rel="canonical" href="https://stbemu.github.io/docs/">
+  <script>
+    // Redirect only if the path is empty or just '/'
+    if (window.location.pathname === '/' || window.location.pathname === '') {
+      window.location.replace('/docs/' + window.location.search + window.location.hash);
+    }
+  </script>
+  <!-- Fallback meta refresh for JavaScript-disabled browsers -->
+  <noscript>
+    <meta http-equiv="refresh" content="0; url=/docs/">
+  </noscript>
+</head>
+<body>
+  <p>If you are not redirected automatically, follow this <a href="/docs/">link to the documentation</a>.</p>
+</body>
+</html>
