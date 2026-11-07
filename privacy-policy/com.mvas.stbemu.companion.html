@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Privacy policy for StbEmu Companion by M. Vasylchuk, covering local connections, pairing, profiles, backups, sharing and deletion.">
+  <title>StbEmu Companion Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; font-family: system-ui, sans-serif; line-height: 1.65; }
+    body { margin: 0; background: Canvas; color: CanvasText; }
+    main { box-sizing: border-box; max-width: 52rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    h1, h2 { line-height: 1.25; text-wrap: balance; }
+    h1 { margin: 0 0 1.5rem; font-size: clamp(1.8rem, 5vw, 2.5rem); }
+    h2 { margin: 2.5rem 0 1rem; font-size: 1.4rem; }
+    p { margin: 1rem 0; }
+    ul { padding-inline-start: 1.5rem; }
+    li { margin-block: 0.8rem; }
+    a { color: LinkText; text-underline-offset: 0.18em; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+    @media print {
+      :root { color-scheme: light; font-size: 11pt; }
+      main { max-width: none; padding: 0; }
+      h1, h2 { break-after: avoid; }
+      p, li { orphans: 3; widows: 3; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <article aria-labelledby="policy-title">
+      <h1 id="policy-title">StbEmu Companion Privacy Policy</h1>
+      <p><strong>Last updated: 7 November 2026</strong></p>
+      <p>StbEmu Companion is developed by <strong>M. Vasylchuk</strong> (“we”, “us” or “our”). This privacy policy explains how the Android app handles information when you discover and pair with StbEmu devices, use remote controls, manage profiles, work with backups or configuration transfers, view ads, or purchase Premium.</p>
+      <p>Privacy contact: <a href="mailto:support@stbemu.com">support@stbemu.com</a>.</p>
+      <h2>Information the app handles</h2>
+      <p>StbEmu Companion’s device-control features work on your local network, and the app stores its own persistent data in private storage on your Android device. Advertising, consent management and Google Play purchases use internet services. Companion does not require a developer-hosted account; purchases use your Google Play account.</p>
+      <p>Depending on the features you use, the app handles:</p>
+      <ul>
+        <li><strong>Device and connection information:</strong> discovered or manually entered local IP addresses and ports, device names and aliases, service identifiers, device details, availability and compatibility information, and saved connection records.</li>
+        <li><strong>Pairing and security information:</strong> a randomly generated Companion identifier, pairing credentials and trusted device public-key fingerprints. Pairing codes are used to establish a connection and are not saved by Companion.</li>
+        <li><strong>Commands and configuration:</strong> remote-control commands and their results; StbEmu profile names, identifiers and settings; and configuration selected for editing, copying, import, export or restore. Profiles and backups can contain portal URLs, usernames, passwords, MAC addresses, serial numbers, other configured identifiers and additional information stored by StbEmu.</li>
+        <li><strong>Backups and operation records:</strong> backup file contents, names, source metadata, timestamps, sizes and integrity hashes, plus identifiers and status references used to check previous operations without automatically repeating them. Configuration transfers may also use temporary private files.</li>
+        <li><strong>App preferences:</strong> language, theme, vibration preferences, local device labels and backup-inclusion settings.</li>
+        <li><strong>Advertising, privacy and purchase information:</strong> information processed by Google’s advertising and consent services, your privacy choices, and Google Play purchase details and signed evidence used to verify and restore Premium, as described below.</li>
+      </ul>
+      <p>The app uses this information to discover and authenticate devices, carry out your requested actions, preserve settings and connections, manage backups, check operation status, provide advertising, manage privacy choices and recognize Premium purchases.</p>
+      <h2>Local connections and permissions</h2>
+      <p>Discovery uses local-network service discovery. Connections to StbEmu devices use the local Wi-Fi or Ethernet network. Paired control and configuration traffic uses TLS encryption and checks the trusted device identity. A connected StbEmu device receives the identifiers, authentication information, commands and configuration needed for the features you use. Copying or restoring configuration sends the selected data to the destination device you choose.</p>
+      <p>The app uses Android network permissions to discover devices, establish local connections and access advertising, privacy and purchase services over the internet. It uses Android’s document picker and sharing system to access files or destinations you select. It does not request broad access to your files, contacts, camera, microphone or precise location. Advertising services can infer an approximate location from your internet IP address.</p>
+      <h2>Developer collection and third parties</h2>
+      <p>The app does not automatically upload your device list, pairing credentials, profiles or backup contents to servers operated by us. We do not pass local device addresses, service identifiers, credentials, profile contents, archives or operation records to advertising, consent or billing services as targeting or account identifiers. Google’s services process advertising, consent and purchase information as described below.</p>
+      <p>Information can leave your Android device through the following features:</p>
+      <ul>
+        <li><strong>StbEmu connections:</strong> data is exchanged with the StbEmu devices you connect to, as described above.</li>
+        <li><strong>Import, export and sharing:</strong> a document or cloud-storage provider you select may process files you open or save. An app or recipient you choose through Android sharing can receive a copy of the exported backup.</li>
+        <li><strong>Android system backup and device transfer:</strong> Android may back up or transfer app data as described below.</li>
+        <li><strong>Ads, privacy choices and purchases:</strong> Google and its service partners process information through AdMob, consent-management and Google Play services.</li>
+        <li><strong>Support:</strong> if you email us, we receive your email address, message and any attachments you choose to send, and use them to respond and resolve your request. Email providers process that correspondence.</li>
+      </ul>
+      <p>Exported JSON backups preserve their original contents and may contain passwords or other sensitive configuration. They are not automatically redacted or password-encrypted by Companion. Choose recipients and storage destinations carefully. Third-party apps and providers handle the copies they receive under their own privacy policies.</p>
+      <h2>Advertising and privacy choices</h2>
+      <p>The regular app displays banner ads using Google AdMob. Google’s Mobile Ads SDK can collect and share your internet IP address, device and account identifiers such as the Android advertising ID and app set ID, app and ad interactions, and performance or diagnostic information. Your IP address can indicate your approximate location. The information processed depends on SDK configuration, device settings, region and privacy choices.</p>
+      <p>Google uses advertising information to deliver and measure ads, support advertising analytics and detect fraud or abuse. Where permitted by your choices and applicable requirements, ads may be personalized. Advertising data sent by the Mobile Ads SDK is encrypted in transit. See <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Google’s advertising data disclosure</a>, <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a>, and <a href="https://policies.google.com/technologies/partner-sites">how Google uses information from apps that use its services</a>.</p>
+      <p>The app uses Google’s User Messaging Platform to obtain and store relevant privacy choices and present required consent messages. That service communicates with Google to determine which messages and choices apply. Where required, you can review or withdraw consent through the privacy options in Settings. Ad requests are subject to the applicable consent requirements and the service’s current permission to request ads. Declining consent does not require you to buy Premium or disable local device-control features.</p>
+      <p>Non-personalized or limited advertising can still involve technical data for ad delivery, measurement and fraud prevention; turning off personalization does not by itself eliminate all advertising-related processing. You can also manage your advertising ID through Android’s advertising privacy settings. Google’s policies explain its retention practices and available data controls.</p>
+      <h2>Premium and Google Play purchases</h2>
+      <p>Premium is an optional one-time Google Play purchase that removes in-app ads. The regular and Premium modes otherwise provide the same app features. Premium is not a subscription.</p>
+      <p>Google Play processes checkout and payment. Companion receives purchase information such as the product identifier, purchase token, signed purchase record, signature and purchase or acknowledgement status. The app uses this information to verify ownership, acknowledge the purchase, restore Premium and reconcile refunds or revocations when Google Play is available. Companion does not receive your full payment-card details.</p>
+      <p>Purchase verification takes place on your device, without a developer-operated purchase-verification server. Verified purchase evidence is stored privately on that installation, separately from app preferences, and is excluded from Companion’s Android system-backup capsules and configuration exports. After reinstalling or moving to a new device, use Google Play purchase restoration with the account that owns Premium.</p>
+      <p>A previously verified Premium entitlement remains ad-free while offline. Premium stops in-app advertising; it does not erase information already processed by Google or prevent Google Play ownership checks or processing needed to manage privacy choices. Google handles purchase and payment records under its own privacy policies.</p>
+      <h2>Android system backup</h2>
+      <p>The app supports Android system backup and device-to-device transfer on supported devices. Depending on your Android backup settings and available transport, this can send app preferences, saved devices and endpoints, the Companion identifier, pairing credentials, trusted device information and operation references to your system backup provider or a replacement device. Completed local backup archives are included by default, and you can turn their inclusion off in the app’s System backup settings.</p>
+      <p>The app permits cloud backup only when Android reports support for client-side encrypted backup. Android controls backup scheduling, storage, retention and restoration. Availability depends on your device, account, security settings, provider and available space. System backup is unavailable through this app on Android 8.0 and 8.1.</p>
+      <p>The archive-inclusion switch applies to future system backups. Turning it off does not delete local archives or copies already held by a backup provider. Manage system backup and any existing cloud copies through Android and your backup provider’s controls.</p>
+      <h2>Retention and deletion</h2>
+      <p>Saved preferences, connections and library archives remain on your device until you change or delete them, clear the app’s storage or uninstall the app. Operation references can remain to support status recovery. Temporary files are cleaned up after operations or during later cleanup; failed cleanup can delay their removal. Local purchase evidence is retained to recognize Premium and retry purchase acknowledgement, until replaced by a current ownership result, cleared with app storage or removed by uninstalling.</p>
+      <p>You can manage your information as follows:</p>
+      <ul>
+        <li><strong>Remove a saved device</strong> to delete its saved connection and local pairing credential. A minimal identifier may remain to prevent automatic rediscovery. This does not delete its backup archives, historical operation references or configuration on the StbEmu device. Revoke Companion access on the StbEmu device if you also want to invalidate its authorization there.</li>
+        <li><strong>Delete an archive in the app</strong> to remove that copy from the private backup library.</li>
+        <li><strong>Clear the app’s storage or uninstall it</strong> to remove its private local data. Android may restore an earlier system backup if you reinstall the app.</li>
+        <li><strong>Delete external copies separately.</strong> Exported files, copies received by other apps or devices, and system backups are not deleted by removing a library entry, clearing app storage or uninstalling Companion. Clearing app data or uninstalling also does not delete Google’s advertising or payment records, cancel an owned Premium purchase or request a refund. Google retains and deletes its records under its own policies and applicable requirements.</li>
+      </ul>
+      <p>We retain support correspondence for as long as needed to handle the request and meet applicable legal obligations. Contact <a href="mailto:support@stbemu.com">support@stbemu.com</a> to request deletion of information you have sent us. We cannot remotely access or erase your app’s private local data, your StbEmu devices or copies held by providers you choose.</p>
+      <h2>Security and your choices</h2>
+      <p>The app uses Android’s private app storage, authenticated pairing and encrypted paired connections to protect information. No storage or transmission method provides an absolute security guarantee. Protect your Android device, your StbEmu devices and any exported files against unauthorized access.</p>
+      <p>You choose which devices to pair, which configuration to transfer, and which documents or recipients to use. Depending on applicable law, you may have rights to access, correct or delete personal information we hold, restrict or object to its use, or complain to your local data-protection authority. Contact us to exercise these rights.</p>
+      <h2>Changes and contact</h2>
+      <p>We may update this policy when the app or its data practices change. The updated policy will show a new revision date. Where required, we will provide additional notice or obtain consent.</p>
+      <p>For privacy questions or requests, contact <strong>M. Vasylchuk</strong> at <a href="mailto:support@stbemu.com">support@stbemu.com</a>.</p>
+    </article>
+  </main>
+</body>
+</html>
